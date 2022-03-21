@@ -1,0 +1,34 @@
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    .linklogo{
+        text-decoration: none;
+        .logolospapus{
+            width: 180px;
+        }
+    }
+    .navul{
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        .navli{
+            margin: 1rem 5rem;
+            .navlink{
+                text-decoration: none;
+                color: $letras;
+                &:hover{
+                        font-weight: bold;
+                        border-bottom: .2rem solid $letras;
+                        padding-bottom: 0.3rem;
+                        color: $letras;
+                        transition: all 0.2s;
+                }
+            }
+        }
+    }
+}
+
+p{color: white;}
