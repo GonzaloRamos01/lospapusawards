@@ -4,26 +4,39 @@
   padding: 0;
   box-sizing: border-box; }
   * body {
-    background: #0bf5f0;
-    background: linear-gradient(0deg, #0bf5f0 0%, #000303 76%);
     font-family: 'Raleway', sans-serif; }
+  * ::-webkit-scrollbar {
+    width: .4rem; }
+  * ::-webkit-scrollbar-track {
+    background-color: #1a3652; }
+  * ::-webkit-scrollbar-thumb {
+    background-color: #0e2741;
+    border-radius: .5rem; }
 
 .nav {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  align-items: center; }
+  align-items: center;
+  background-color: rgba(14, 34, 78, 0.295);
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1000;
+  height: 16vh; }
   .nav .linklogo {
     text-decoration: none; }
     .nav .linklogo .logolospapus {
-      width: 180px; }
+      width: 200px;
+      height: 200px; }
   .nav .navul {
     list-style: none;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap; }
     .nav .navul .navli {
-      margin: 1rem 5rem; }
+      margin: 0rem 2rem; }
       .nav .navul .navli .navlink {
         text-decoration: none;
         color: #0BF5FF; }
@@ -34,5 +47,87 @@
           color: #0BF5FF;
           transition: all 0.2s; }
 
-p {
-  color: white; }
+main .sectiontitulo {
+  width: auto;
+  height: 100vh;
+  background-color: #1a3652; }
+  main .sectiontitulo .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    main .sectiontitulo .card .imglogo {
+      margin-top: 3rem;
+      margin-bottom: -5rem; }
+    main .sectiontitulo .card .titulo {
+      font-size: 3rem;
+      color: white; }
+    main .sectiontitulo .card .descripcion {
+      color: #0BF5FF; }
+
+main .sectiondesc {
+  display: flex;
+  flex-direction: row;
+  background-color: #091727; }
+  main .sectiondesc .divimgdesc {
+    margin: 3rem 2rem; }
+  main .sectiondesc .divtextodesc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start; }
+    main .sectiondesc .divtextodesc .titulodesc {
+      font-size: 1.5rem;
+      color: white;
+      margin-bottom: 2rem; }
+    main .sectiondesc .divtextodesc .textodesc {
+      font-size: 1rem;
+      color: white;
+      font-weight: 400; }
+    main .sectiondesc .divtextodesc .buttondesc {
+      margin-top: 2rem;
+      background-color: #034c4e69;
+      padding: 15px;
+      align-self: center;
+      border: none; }
+      main .sectiondesc .divtextodesc .buttondesc:hover {
+        cursor: pointer;
+        background-color: #0BF5FF; }
+      main .sectiondesc .divtextodesc .buttondesc a {
+        text-decoration: none;
+        color: white;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 600;
+        font-size: 1rem; }
+
+.footer {
+  width: 100%;
+  height: auto;
+  background: #000303;
+  background: linear-gradient(0deg, #000303 1%, #1a3652 89%); }
+  .footer .footertexto, .footer .divcopy .textocopy {
+    text-align: center;
+    color: white;
+    font-size: 1rem;
+    padding: 10px;
+    font-weight: 500; }
+  .footer .footerlist {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around; }
+    .footer .footerlist .footerli {
+      color: white; }
+      .footer .footerlist .footerli .footerlinks {
+        text-decoration: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; }
+        .footer .footerlist .footerli .footerlinks .instagramlogo {
+          width: 32px;
+          margin: 10px; }
+  .footer .divcopy {
+    margin-top: 20px; }
+    .footer .divcopy .textocopy .linkcopy {
+      color: #0BF5FF; }

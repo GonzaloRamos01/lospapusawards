@@ -1,0 +1,42 @@
+.footer{
+    width: 100%;
+    height: auto;
+    background: rgb(0,3,3);
+    background: linear-gradient(0deg, rgba(0,3,3,1) 1%, rgba(26,54,82,1) 89%);
+    .footertexto{
+        text-align: center;
+        color: white;
+        font-size: 1rem;
+        padding: 10px;
+        font-weight: 500;
+    }
+    .footerlist{
+        list-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        .footerli{
+            color: white;
+        .footerlinks{
+            text-decoration: none;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            .instagramlogo{
+                width: 32px;
+                margin: 10px;
+            }
+        }
+    }
+    }
+    .divcopy{
+        margin-top: 20px;
+        .textocopy{
+        @extend .footertexto;
+        .linkcopy{
+            color: $letras;
+        }
+    }
+    }
+}
