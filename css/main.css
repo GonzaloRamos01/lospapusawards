@@ -4,6 +4,7 @@
   padding: 0;
   box-sizing: border-box; }
   * body {
+    background-color: #1a3652;
     font-family: 'Raleway', sans-serif; }
   * ::-webkit-scrollbar {
     width: .4rem; }
@@ -57,7 +58,7 @@ main .sectiontitulo {
     justify-content: center;
     align-items: center; }
     main .sectiontitulo .card .imglogo {
-      margin-top: 3rem;
+      margin-top: 10rem;
       margin-bottom: -5rem; }
     main .sectiontitulo .card .titulo {
       font-size: 3rem;
@@ -101,6 +102,7 @@ main .sectiondesc {
         font-size: 1rem; }
 
 .footer {
+  margin-top: 5rem;
   width: 100%;
   height: auto;
   background: #000303;
@@ -126,7 +128,7 @@ main .sectiondesc {
         align-items: center; }
         .footer .footerlist .footerli .footerlinks .instagramlogo {
           width: 32px;
-          margin: 10px; }
+          margin: 10px 0px; }
   .footer .divcopy {
     margin-top: 20px; }
     .footer .divcopy .textocopy .linkcopy {
