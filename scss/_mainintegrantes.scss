@@ -1,0 +1,36 @@
+.mainint{
+    margin-top: 15rem ;
+    .tituloint{
+        text-align: center;
+        font-size: 4rem;
+        margin-bottom: 5rem;
+    }
+    .boxintegrantes{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    .integrante{
+        display: flex;
+        width: 50%;
+        height: 30rem;
+        margin-bottom: 5rem;
+        .imgintegrante{
+            width: 20rem;
+            height: 30rem;
+        }
+        .inttexto{
+            display: flex;
+            flex-direction: column;
+            .intnombre{
+                font-size: 1.7rem;
+                margin-left: 1rem;
+            }
+            .intdesc{
+                font-size: 1rem;
+                margin-top: 1rem;
+                margin-left: 1rem;
+            }
+        }
+    }
+}
+}

@@ -133,3 +133,32 @@ main .sectiondesc {
     margin-top: 20px; }
     .footer .divcopy .textocopy .linkcopy {
       color: #0BF5FF; }
+
+.mainint {
+  margin-top: 15rem; }
+  .mainint .tituloint {
+    text-align: center;
+    font-size: 4rem;
+    margin-bottom: 5rem; }
+  .mainint .boxintegrantes {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .mainint .boxintegrantes .integrante {
+      display: flex;
+      width: 50%;
+      height: 30rem;
+      margin-bottom: 5rem; }
+      .mainint .boxintegrantes .integrante .imgintegrante {
+        width: 20rem;
+        height: 30rem; }
+      .mainint .boxintegrantes .integrante .inttexto {
+        display: flex;
+        flex-direction: column; }
+        .mainint .boxintegrantes .integrante .inttexto .intnombre {
+          font-size: 1.7rem;
+          margin-left: 1rem; }
+        .mainint .boxintegrantes .integrante .inttexto .intdesc {
+          font-size: 1rem;
+          margin-top: 1rem;
+          margin-left: 1rem; }
