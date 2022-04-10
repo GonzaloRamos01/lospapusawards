@@ -2,11 +2,10 @@
     margin-top: 5rem;
     width: 100%;
     height: auto;
-    background: rgb(0,3,3);
-    background: linear-gradient(0deg, rgba(0,3,3,1) 1%, rgba(26,54,82,1) 89%);
+    background-color: black;
     .footertexto{
         text-align: center;
-        color: white;
+        color: $letras;
         font-size: 1rem;
         padding: 10px;
         font-weight: 500;
@@ -15,10 +14,12 @@
         list-style: none;
         display: flex;
         align-items: center;
-        justify-content: space-around;
+        justify-content: center;
         .footerli{
             color: white;
-        .footerlinks{
+            margin: 0 .5rem;
+        .footerlinks{ 
+            color: white;
             text-decoration: none;
             display: flex;
             flex-direction: column;
@@ -34,7 +35,11 @@
     .divcopy{
         margin-top: 20px;
         .textocopy{
-        @extend .footertexto;
+            text-align: center;
+            color: white;
+            font-size: 1rem;
+            padding: 10px;
+            font-weight: 500;
         .linkcopy{
             color: $letras;
         }

@@ -105,11 +105,10 @@ main .sectiondesc {
   margin-top: 5rem;
   width: 100%;
   height: auto;
-  background: #000303;
-  background: linear-gradient(0deg, #000303 1%, #1a3652 89%); }
-  .footer .footertexto, .footer .divcopy .textocopy {
+  background-color: black; }
+  .footer .footertexto {
     text-align: center;
-    color: white;
+    color: #0BF5FF;
     font-size: 1rem;
     padding: 10px;
     font-weight: 500; }
@@ -117,10 +116,12 @@ main .sectiondesc {
     list-style: none;
     display: flex;
     align-items: center;
-    justify-content: space-around; }
+    justify-content: center; }
     .footer .footerlist .footerli {
-      color: white; }
+      color: white;
+      margin: 0 .5rem; }
       .footer .footerlist .footerli .footerlinks {
+        color: white;
         text-decoration: none;
         display: flex;
         flex-direction: column;
@@ -131,8 +132,14 @@ main .sectiondesc {
           margin: 10px 0px; }
   .footer .divcopy {
     margin-top: 20px; }
-    .footer .divcopy .textocopy .linkcopy {
-      color: #0BF5FF; }
+    .footer .divcopy .textocopy {
+      text-align: center;
+      color: white;
+      font-size: 1rem;
+      padding: 10px;
+      font-weight: 500; }
+      .footer .divcopy .textocopy .linkcopy {
+        color: #0BF5FF; }
 
 .mainint {
   margin-top: 15rem; }
