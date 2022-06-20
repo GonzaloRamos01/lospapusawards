@@ -157,11 +157,13 @@ main .sectiondesc {
       height: 30rem;
       margin-bottom: 5rem; }
       .mainint .boxintegrantes .integrante .imgintegrante {
-        width: 20rem;
-        height: 30rem; }
+        width: 17rem;
+        height: 30rem;
+        object-fit: cover; }
       .mainint .boxintegrantes .integrante .inttexto {
         display: flex;
-        flex-direction: column; }
+        flex-direction: column;
+        color: #0BF5FF; }
         .mainint .boxintegrantes .integrante .inttexto .intnombre {
           font-size: 1.7rem;
           margin-left: 1rem; }
